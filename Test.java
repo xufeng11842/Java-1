@@ -5,7 +5,7 @@ public class Test {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         Courses a = null ;      //对a进行初始化赋值
-        Student w = new Student(2019311489, "徐凤", 'M');
+        Student w = new Student(2019311489, "徐凤", 'W');
         System.out.println("学生信息");
         System.out.println(w);
         Teacher b = new Teacher(1, "王", 'M', "数学");
